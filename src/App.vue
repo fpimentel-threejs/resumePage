@@ -12,7 +12,7 @@
       <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
         <div class="">
           <div>
-            <div class="text-amber-100 text-4xl leading-normal" >McNeese State University</div>
+            <div id="sectionHead" class="text-amber-100 text-4xl leading-normal" >McNeese State University</div>
             <div class="text-2xl">2017-2021</div>
           </div>
           <div id="description">
@@ -21,7 +21,7 @@
         </div>
           <ul class="mt-10" id="list" style="list-style-type:disc;">
             <li class="text-xl leading-normal">3.4 GPA</li><br/>
-            <li class="text-xl leading-normal">Member and leadership position holder of various student organizations including: Association of Computing and Machinery, Robotics Club, Theta Chi Theta Rho</li>
+            <li class="text-xl leading-normal">Member and leadership position holder of various student organizations including: <a class="font-bold">Association of Computing and Machinery</a>, Robotics Club, Theta Chi Theta Rho</li>
           </ul>
       </div>
     </div>
@@ -32,7 +32,7 @@
       <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
         <div class="">
           <div>
-            <div class="text-amber-100 text-4xl leading-normal" >Freelance Web Development</div>
+            <div id="sectionHead" class="text-amber-100 text-4xl leading-normal" >Freelance Web Development</div>
             <div class="text-2xl">March 2022-Present</div>
           </div>
           <div id="description">
@@ -40,21 +40,21 @@
           </div>
         </div>
         <ul id="list" class="mt-10" style="list-style-type:disc;">
-          <li class="text-xl leading-normal">create interactive 3D websites complete with stock and custom assets</li><br/>
-          <li class="text-xl leading-normal">creation of 3D and 2D assets such as 3D models, brand logos, and skyboxes</li><br/>
-          <li class="text-xl leading-normal">mount sites for testing and the assurance of customer satisfaction</li><br/>
+          <li class="text-xl leading-normal">create interactive 3D websites complete with stock and <a class="font-bold">custom assets</a></li><br/>
+          <li class="text-xl leading-normal">creation of 3D and 2D assets such as <a class="font-bold">3D models</a>, brand <a class="font-bold">logos</a>, and skyboxes</li><br/>
+          <li class="text-xl leading-normal"><a class="font-bold">mount sites</a> for testing and the assurance of customer satisfaction</li><br/>
           <li class="text-xl leading-normal">interact and discuss with clients to meet client needs to the fullest extent</li>
         </ul>
       </div>
       <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
         <div class="" id="job">
-          <div><a class="text-amber-100 text-4xl leading-normal" href="https://www.capitalone.com/">Capital One</a></div>
+          <div><a id="sectionHead" class="text-amber-100 text-4xl leading-normal" href="https://www.capitalone.com/">Capital One</a></div>
           <div class="text-2xl">June 2022-Present</div>
         </div>
         <div id="description">
           <div class="text-3xl my-6">Associate Banker</div>
           <ul id="list" class="mt-10" style="list-style-type:disc;">
-            <li class="text-xl leading-normal">interact with various banking software to assure regulations are followed and customer needs are met</li><br/>
+            <li class="text-xl leading-normal">interact with various <a class="font-bold">banking software</a> to assure regulations are followed and customer needs are met</li><br/>
             <li class="text-xl leading-normal">open and manage personal and business accounts for customers</li><br/>
             <li class="text-xl leading-normal">complete customer transactions</li>
           </ul>
@@ -209,7 +209,7 @@ onMounted(() => {
 #title{
   font-family: 'Tilt Neon', cursive;
   font-size: 10vw;
-  width: 60%;
+  width: 40%;
   margin: 8vw;
   text-shadow: 2px 2px 10px;
 }
@@ -217,9 +217,9 @@ onMounted(() => {
 #headline {
   font-family: 'Tilt Neon', cursive;
   font-weight: 400;
-  width: 300px;
+  width: 70%;
   margin: 20vw 0 8vw 8vw;
-  font-size: 5vw;
+  font-size: 8vw;
   text-shadow: 1px 1px 8px;
 }
 
@@ -242,14 +242,18 @@ onMounted(() => {
   padding: 5% 5%;
   margin: 3vw;
   font-family: 'Sono', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   backdrop-filter: blur(6px);
 }
 
 #list {
   margin-left: 10%;
   font-family: 'Heebo', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
+}
+
+#sectionHead {
+  font-family: 'Heebo', sans-serif;
 }
 
 #description {
