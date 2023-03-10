@@ -9,7 +9,7 @@
   <div id="body" class="z-40">
     <div id="sectionTitle" class="text-slate-200 leading-normal">Education</div>
     <div class="" id="experience">
-      <div class="p-10 bg-emerald-300/5 rounded-3xl grid grid-cols-2 gap-4 mb-10">
+      <div class="p-10 bg-emerald-300/5 rounded-3xl grid grid-cols-2 gap-20 mb-10">
         <div>
           <div class="text-amber-100 text-2xl leading-normal" >McNeese State University</div>
           <div class="text-2xl">2017-2021</div>
@@ -27,7 +27,7 @@
     <!--work experience-->
     <div id="sectionTitle" class="text-slate-200 leading-normal">Work Experience</div>
     <div class="" id="experience">
-      <div class="p-10 bg-emerald-300/5 rounded-3xl grid grid-cols-2 gap-4 mb-10">
+      <div class="p-10 bg-emerald-300/5 rounded-3xl grid grid-cols-2 gap-20 mb-10">
         <div>
           <div class="text-amber-100 text-2xl leading-normal" >Freelance Web Development</div>
           <div class="text-2xl">March 2022-Present</div>
@@ -42,9 +42,9 @@
           </ul>
         </div>
       </div>
-      <div class="p-10 bg-emerald-300/5 rounded-3xl grid grid-cols-2 gap-10 mb-10">
+      <div class="p-10 bg-emerald-300/5 rounded-3xl grid grid-cols-2 gap-20 mb-10">
         <div class="" id="job">
-          <div><a class="text-amber-100 text-4xl leading-normal" href="https://www.capitalone.com/">Capital One</a></div>
+          <div><a class="text-amber-100 text-2xl leading-normal" href="https://www.capitalone.com/">Capital One</a></div>
           <div class="text-2xl">June 2022-Present</div>
         </div>
         <div id="description">
