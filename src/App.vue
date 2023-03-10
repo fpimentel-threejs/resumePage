@@ -42,7 +42,7 @@
         <ul id="list" class="mt-10" style="list-style-type:disc;">
           <li class="text-xl leading-normal">create interactive 3D websites complete with stock and custom assets</li><br/>
           <li class="text-xl leading-normal">creation of 3D and 2D assets such as 3D models, brand logos, and skyboxes</li><br/>
-          <li class="text-xl leading-normal">mount sites for testing and th assurance of customer satisfaction</li><br/>
+          <li class="text-xl leading-normal">mount sites for testing and the assurance of customer satisfaction</li><br/>
           <li class="text-xl leading-normal">interact and discuss with clients to meet client needs to the fullest extent</li>
         </ul>
       </div>
