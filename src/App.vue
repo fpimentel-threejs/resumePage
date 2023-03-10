@@ -9,50 +9,54 @@
   <div id="body" class="z-40">
     <div id="sectionTitle" class="text-slate-200 leading-normal">Education</div>
     <div class="" id="experience">
-      <div class="p-10 bg-emerald-300/5 rounded-3xl grid grid-cols-2 gap-20 mb-10">
-        <div>
-          <div class="text-amber-100 text-2xl leading-normal" >McNeese State University</div>
-          <div class="text-2xl">2017-2021</div>
+      <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
+        <div class="">
+          <div>
+            <div class="text-amber-100 text-5xl leading-normal" >McNeese State University</div>
+            <div class="text-2xl">2017-2021</div>
+          </div>
+          <div id="description">
+            <div class="text-3xl my-6">Computer Science Major w/ Philosphy Minor</div>
+          </div>
         </div>
-        <div id="description">
-          <div class="text-2xl my-6">Computer Science w/ Philosphy Minor</div>
-          <ul id="list" style="list-style-type:disc;">
-            <li class="text-lg leading-normal">3.4 GPA</li><br/>
-            <li class="text-lg leading-normal">Member and leadership position holder of various student organizations including: Association of Computing and Machinery, Robotics Club, Theta Chi Theta Rho</li><br/>
+          <ul class="mt-10" id="list" style="list-style-type:disc;">
+            <li class="text-xl leading-normal">3.4 GPA</li><br/>
+            <li class="text-xl leading-normal">Member and leadership position holder of various student organizations including: Association of Computing and Machinery, Robotics Club, Theta Chi Theta Rho</li>
           </ul>
-        </div>
       </div>
     </div>
 
     <!--work experience-->
     <div id="sectionTitle" class="text-slate-200 leading-normal">Work Experience</div>
     <div class="" id="experience">
-      <div class="p-10 bg-emerald-300/5 rounded-3xl grid grid-cols-2 gap-20 mb-10">
-        <div>
-          <div class="text-amber-100 text-2xl leading-normal" >Freelance Web Development</div>
-          <div class="text-2xl">March 2022-Present</div>
+      <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
+        <div class="">
+          <div>
+            <div class="text-amber-100 text-5xl leading-normal" >Freelance Web Development</div>
+            <div class="text-2xl">March 2022-Present</div>
+          </div>
+          <div id="description">
+            <div class="text-3xl my-6">Creative Web Developer</div>
+          </div>
         </div>
-        <div id="description">
-          <div class="text-2xl my-6">Creative Web Developer</div>
-          <ul id="list" style="list-style-type:disc;">
-            <li class="text-lg leading-normal">create interactive 3D websites complete with stock and custom assets</li><br/>
-            <li class="text-lg leading-normal">creation of 3D and 2D assets such as 3D models, brand logos, and skyboxes</li><br/>
-            <li class="text-lg leading-normal">mount sites for testing and th assurance of customer satisfaction</li><br/>
-            <li class="text-lg leading-normal">interact and discuss with clients to meet client needs to the fullest extent</li><br/>
-          </ul>
-        </div>
+        <ul id="list" class="mt-10" style="list-style-type:disc;">
+          <li class="text-xl leading-normal">create interactive 3D websites complete with stock and custom assets</li><br/>
+          <li class="text-xl leading-normal">creation of 3D and 2D assets such as 3D models, brand logos, and skyboxes</li><br/>
+          <li class="text-xl leading-normal">mount sites for testing and th assurance of customer satisfaction</li><br/>
+          <li class="text-xl leading-normal">interact and discuss with clients to meet client needs to the fullest extent</li>
+        </ul>
       </div>
-      <div class="p-10 bg-emerald-300/5 rounded-3xl grid grid-cols-2 gap-20 mb-10">
+      <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
         <div class="" id="job">
-          <div><a class="text-amber-100 text-2xl leading-normal" href="https://www.capitalone.com/">Capital One</a></div>
+          <div><a class="text-amber-100 text-5xl leading-normal" href="https://www.capitalone.com/">Capital One</a></div>
           <div class="text-2xl">June 2022-Present</div>
         </div>
         <div id="description">
-          <div class="text-2xl my-6">Associate Banker</div>
-          <ul id="list" style="list-style-type:disc;">
-            <li class="text-lg leading-normal">interact with various banking software to assure regulations are followed and customer needs are met</li><br/>
-            <li class="text-lg leading-normal">open and manage personal and business accounts for customers</li><br/>
-            <li class="text-lg leading-normal">complete customer transactions</li><br/>
+          <div class="text-3xl my-6">Associate Banker</div>
+          <ul id="list" class="mt-10" style="list-style-type:disc;">
+            <li class="text-xl leading-normal">interact with various banking software to assure regulations are followed and customer needs are met</li><br/>
+            <li class="text-xl leading-normal">open and manage personal and business accounts for customers</li><br/>
+            <li class="text-xl leading-normal">complete customer transactions</li>
           </ul>
         </div>
       </div>
@@ -244,11 +248,12 @@ onMounted(() => {
 
 #list {
   margin-left: 10%;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 200;
 }
 
 #description {
   font-family: 'Heebo', sans-serif;
-  font-weight: 200;
 }
 
 #footer{
