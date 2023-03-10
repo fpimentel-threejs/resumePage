@@ -12,7 +12,7 @@
       <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
         <div class="">
           <div>
-            <div class="text-amber-100 text-5xl leading-normal" >McNeese State University</div>
+            <div class="text-amber-100 text-4xl leading-normal" >McNeese State University</div>
             <div class="text-2xl">2017-2021</div>
           </div>
           <div id="description">
@@ -32,7 +32,7 @@
       <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
         <div class="">
           <div>
-            <div class="text-amber-100 text-5xl leading-normal" >Freelance Web Development</div>
+            <div class="text-amber-100 text-4xl leading-normal" >Freelance Web Development</div>
             <div class="text-2xl">March 2022-Present</div>
           </div>
           <div id="description">
@@ -48,7 +48,7 @@
       </div>
       <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
         <div class="" id="job">
-          <div><a class="text-amber-100 text-5xl leading-normal" href="https://www.capitalone.com/">Capital One</a></div>
+          <div><a class="text-amber-100 text-4xl leading-normal" href="https://www.capitalone.com/">Capital One</a></div>
           <div class="text-2xl">June 2022-Present</div>
         </div>
         <div id="description">
