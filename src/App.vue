@@ -9,7 +9,7 @@
   <div id="body" class="z-40">
     <div id="sectionTitle" class="text-slate-200 leading-normal">Education</div>
     <div class="" id="experience">
-      <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
+      <div class="border-2 border-solid border-white p-10 bg-amber-200/5 rounded-3xl mb-10">
         <div class="">
           <div>
             <div id="sectionHead" class="text-amber-100 text-4xl leading-normal" >McNeese State University</div>
@@ -29,7 +29,7 @@
     <!--work experience-->
     <div id="sectionTitle" class="text-slate-200 leading-normal">Work Experience</div>
     <div class="" id="experience">
-      <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
+      <div class="border-2 border-solid border-white p-10 bg-amber-200/5 rounded-3xl mb-10">
         <div class="">
           <div>
             <div id="sectionHead" class="text-amber-100 text-4xl leading-normal" >Freelance Web Development</div>
@@ -46,7 +46,7 @@
           <li class="text-xl leading-normal">interact and discuss with clients to meet client needs to the fullest extent</li>
         </ul>
       </div>
-      <div class="p-10 bg-emerald-300/5 rounded-3xl mb-10">
+      <div class="border-2 border-solid border-white p-10 bg-amber-200/5 rounded-3xl mb-10">
         <div class="" id="job">
           <div><a id="sectionHead" class="text-amber-100 text-4xl leading-normal" href="https://www.capitalone.com/">Capital One</a></div>
           <div class="text-2xl">June 2022-Present</div>
