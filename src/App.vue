@@ -1,9 +1,9 @@
 <template>
 
   <!--HTML scene-->
-  <div id="head" class="z-20 overflow-y-auto">
-    <div id="title" class="text-emerald-200 leading-none">Fernando Pimentel</div>
-    <div id="headline" class="text-slate-200 leading-normal">Junior frontend engineer and creative developer with a specialization in 3D web design.</div>
+  <div id="head" class="overflow-y-auto">
+    <div id="title" class="text-emerald-200 leading-none">Fernando<br/> Pimentel</div>
+    <div id="headline" class="text-slate-200 leading-normal">Junior frontend engineer and creative developer with a specialization in <a class="link link-warning" href="https://snazzy-churros-95d36a.netlify.app/">3D web design</a>.</div>
   </div>
 
   <div id="body" class="z-40">
@@ -43,7 +43,8 @@
           <li class="text-xl leading-normal">create interactive 3D websites complete with stock and <a class="font-bold">custom assets</a></li><br/>
           <li class="text-xl leading-normal">creation of 3D and 2D assets such as <a class="font-bold">3D models</a>, brand <a class="font-bold">logos</a>, and skyboxes</li><br/>
           <li class="text-xl leading-normal"><a class="font-bold">mount sites</a> for testing and the assurance of customer satisfaction</li><br/>
-          <li class="text-xl leading-normal">interact and discuss with clients to meet client needs to the fullest extent</li>
+          <li class="text-xl leading-normal">interact and discuss with clients to meet client needs to the fullest extent</li><br/>
+          <li class="text-xl leading-normal">connect with clients and advertise my services on <a class="link font-semibold" href="https://www.upwork.com/freelancers/~01b89b8e0050a27bf5">Upwork</a> and Fiverr</li>
         </ul>
       </div>
       <div class="border-2 border-solid border-white p-10 bg-amber-200/5 rounded-3xl mb-10">
@@ -83,7 +84,7 @@
       <Group ref="orbit2">
         <Torus ref=sphere4 :radius="2.5" :tube=".1" :tubularSegments="8" :position="{x: 12, y: 10, z: -20}">
         </Torus>
-        <Torus ref=sphere5 :radius="4" :tube=".08" :tubularSegments="5" :position="{x: 4, y: 4, z: -35}">
+        <Torus ref=sphere5 :radius="10" :tube=".08" :tubularSegments="5" :position="{x: 4, y: 4, z: -35}">
         </Torus>
         <Sphere ref=sphere6 :radius="3" :widthSegments="64" :heightSegments="32" :position="{x: 8, y: 14}">
         </Sphere>
@@ -206,20 +207,22 @@ onMounted(() => {
   top: 0;
   left: 0;
 }
+
 #title{
   font-family: 'Tilt Neon', cursive;
-  font-size: 10vw;
-  width: 40%;
-  margin: 8vw;
+  font-size: 15vw;
+  width: 90vw;
+  height: 30vh;
+  margin: 5vh 0 0 5vw;
   text-shadow: 2px 2px 10px;
 }
 
 #headline {
   font-family: 'Tilt Neon', cursive;
   font-weight: 400;
-  width: 70%;
-  margin: 20vw 0 8vw 8vw;
-  font-size: 8vw;
+  width: 65vw;
+  margin: 15vw 0 5vh 5vw;
+  font-size: 6vh;
   text-shadow: 1px 1px 8px;
 }
 
@@ -235,7 +238,7 @@ onMounted(() => {
   position: absolute;
   top: 0;
   left: 0;
-  margin: 120vw 0 0 0;
+  margin: 140vh 0 0 0;
 }
 
 #experience {
@@ -268,6 +271,7 @@ body {
   margin: 0;
 }
 canvas {
+  pointer-events: none;
   position: fixed;
 }
 
