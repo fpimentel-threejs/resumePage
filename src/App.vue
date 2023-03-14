@@ -130,11 +130,11 @@
         </Tetrahedron>
       </Group>
       <Group ref="orbit2">
-        <Torus ref=sphere4 :radius="2.5" :tube=".1" :tubularSegments="8" :position="{x: 12, y: 10, z: -20}">
+        <Torus ref=sphere4 :radius="2.5" :tube=".1" :tubularSegments="8" :position="{x: 12, y: 8, z: -20}">
         </Torus>
         <Torus ref=sphere5 :radius="10" :tube=".08" :tubularSegments="5" :position="{x: 4, y: 4, z: -35}">
         </Torus>
-        <Sphere ref=sphere6 :radius="3" :widthSegments="64" :heightSegments="32" :position="{x: 8, y: 14}">
+        <Sphere ref=sphere6 :radius="3" :widthSegments="64" :heightSegments="32" :position="{x: 12, y: 14}">
         </Sphere>
       </Group>
     </Scene>
