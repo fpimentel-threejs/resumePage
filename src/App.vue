@@ -44,7 +44,7 @@
           <li class="text-xl leading-normal">creation of 3D and 2D assets such as <a class="font-bold">3D models</a>, brand <a class="font-bold">logos</a>, and skyboxes</li><br/>
           <li class="text-xl leading-normal"><a class="font-bold">mount sites</a> for testing and the assurance of customer satisfaction</li><br/>
           <li class="text-xl leading-normal">interact and discuss with clients to meet client needs to the fullest extent</li><br/>
-          <li class="text-xl leading-normal">connect with clients and advertise my services on <a class="link font-semibold" href="https://www.upwork.com/freelancers/~01b89b8e0050a27bf5">Upwork</a> and Fiverr</li>
+          <li class="text-xl leading-normal">connect with clients and advertise my services and products on <a class="link font-semibold" href="https://www.upwork.com/freelancers/~01b89b8e0050a27bf5">Upwork</a> and Fiverr</li>
         </ul>
       </div>
       <div class="border-2 border-solid border-white p-10 bg-amber-200/5 rounded-3xl mb-10">
@@ -62,6 +62,54 @@
         </div>
       </div>
     </div>
+
+    <div id="sectionTitle" class="text-slate-200 leading-normal">Skillset</div>
+    <div class="" id="experience">
+      <div class="border-2 border-solid border-white p-10 bg-amber-200/5 rounded-3xl mb-10">
+        <div class="">
+          <div>
+            <div id="sectionHead" class="text-amber-100 text-4xl leading-normal" >Web Development</div>
+          </div>
+          <div id="description">
+            <div class="text-xl my-6">An emphasis on Javascript/Typescript development with a simple and streamlined
+             approach to HTML formatting and CSS styling.</div>
+          </div>
+        </div>
+        <ul id="list" class="mt-10" style="list-style-type:disc;">
+          <li class="text-xl leading-normal">always developing within JS frameworks, most notably <a class="font-semibold">Vue, Svelte/Sveltekit, and React</a>
+          mainly for a reactive javascript environment</li><br/>
+          <li class="text-xl leading-normal">streamlined approach to CSS styling using the CSS framework <a class="font-semibold">Tailwind</a> and plug-ins that extend it</li><br/>
+          <li class="text-xl leading-normal">site mounting and management through <a class="font-semibold">Netlify</a></li><br/>
+        </ul>
+      </div>
+      <div class="border-2 border-solid border-white p-10 bg-amber-200/5 rounded-3xl mb-10">
+        <div class="" id="job">
+          <div><a id="sectionHead" class="text-amber-100 text-4xl leading-normal">3D Graphics</a></div>
+        </div>
+        <div id="description">
+          <div class="text-xl my-6">Working to develop a deep understanding of 3D graphics and its uses within the web environment</div>
+          <ul id="list" class="mt-10" style="list-style-type:disc;">
+            <li class="text-xl leading-normal">3D WebGL applications using the <a class="font-semibold">Three.js library</a></li><br/>
+            <li class="text-xl leading-normal">mounting and managing renderers that create scenes complete with cameras, skyboxes, objects, and animations</li><br/>
+            <li class="text-xl leading-normal">object rigging to create animations</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-2 border-solid border-white p-10 bg-amber-200/5 rounded-3xl mb-10">
+        <div class="" id="job">
+          <div><a id="sectionHead" class="text-amber-100 text-4xl leading-normal">Asset Creation</a></div>
+        </div>
+        <div id="description">
+          <div class="text-xl my-6">Creating assets for clients and for my own uses when needed</div>
+          <ul id="list" class="mt-10" style="list-style-type:disc;">
+            <li class="text-xl leading-normal">2D assets created mainly within <a class="font-semibold">Adobe Suite</a></li><br/>
+            <li class="text-xl leading-normal">3D assets created within <a class="font-semibold">Blender</a></li><br/>
+            <li class="text-xl leading-normal">sounds created within <a class="font-semibold">Logic X Pro</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <div id="footer" class="font-bold m-8">You can follow me on <a class="link link-warning" href="https://www.linkedin.com/in/fpimentel/">LinkedIn</a> and <a class="link link-warning" href="https://www.instagram.com/rxnando/">Instagram</a>. Here's my <a class="link link-warning" href="https://github.com/fpimentel-threejs/">Github</a> and <a class="link link-warning" href="mailto: fernandopimenton@gmail.com">Email</a>.</div>
   </div>
 
