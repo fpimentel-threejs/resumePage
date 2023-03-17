@@ -89,7 +89,7 @@
         <div id="description">
           <div class="text-xl my-6">Working to develop a deep understanding of 3D graphics and its uses within the web environment</div>
           <ul id="list" class="mt-10" style="list-style-type:disc;">
-            <li class="text-xl leading-normal">3D WebGL applications using the <a class="font-semibold">Three.js library</a></li><br/>
+            <li class="text-xl leading-normal">3D WebGL applications using the <a class="font-semibold">Three.js</a> library</li><br/>
             <li class="text-xl leading-normal">mounting and managing renderers that create scenes complete with cameras, skyboxes, objects, and animations</li><br/>
             <li class="text-xl leading-normal">object rigging to create animations</li>
           </ul>
@@ -301,6 +301,7 @@ onMounted(() => {
   margin-left: 10%;
   font-family: 'Heebo', sans-serif;
   font-weight: 400;
+  color: lightgray;
 }
 
 #sectionHead {
@@ -309,10 +310,12 @@ onMounted(() => {
 
 #description {
   font-family: 'Heebo', sans-serif;
+  color: lightgray;
 }
 
 #footer{
   font-family: 'Heebo', sans-serif;
+  color: lightgray;
 }
 
 body {
