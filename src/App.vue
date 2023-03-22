@@ -42,6 +42,7 @@
         <ul id="list" class="mt-10" style="list-style-type:disc;">
           <li class="text-xl leading-normal">create interactive 3D websites complete with stock and <a class="font-bold">custom assets</a></li><br/>
           <li class="text-xl leading-normal">creation of 3D and 2D assets such as <a class="font-bold">3D models</a>, brand <a class="font-bold">logos</a>, and skyboxes</li><br/>
+          <li class="text-xl leading-normal"><a class="font-bold">Ecommerce</a> site creation and management</li><br/>
           <li class="text-xl leading-normal"><a class="font-bold">mount sites</a> for testing and the assurance of customer satisfaction</li><br/>
           <li class="text-xl leading-normal">interact and discuss with clients to meet client needs to the fullest extent</li><br/>
           <li class="text-xl leading-normal">connect with clients and advertise my services and products on <a class="link font-semibold" href="https://www.upwork.com/freelancers/~01b89b8e0050a27bf5">Upwork</a> and Fiverr</li>
@@ -79,7 +80,8 @@
           <li class="text-xl leading-normal">always developing within JS frameworks, most notably <a class="font-semibold">Vue, Svelte/Sveltekit, and React</a>
           mainly for a reactive javascript environment</li><br/>
           <li class="text-xl leading-normal">streamlined approach to CSS styling using the CSS framework <a class="font-semibold">Tailwind</a> and plug-ins that extend it</li><br/>
-          <li class="text-xl leading-normal">site mounting and management through <a class="font-semibold">Netlify</a></li><br/>
+          <li class="text-xl leading-normal">Ecommerce:<a class="font-semibold"> WordPress</a>, SquareSpace, BigCommerce</li><br/>
+          <li class="text-xl leading-normal">site mounting and management through <a class="font-semibold">Netlify</a></li>
         </ul>
       </div>
       <div class="border-2 border-solid border-white p-10 bg-amber-200/5 rounded-3xl mb-10">
