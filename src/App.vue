@@ -3,7 +3,8 @@
   <!--HTML scene-->
   <div id="head" class="overflow-y-auto">
     <div id="title" class="text-emerald-200 leading-none">Fernando<br/> Pimentel</div>
-    <div id="headline" class="text-slate-200 leading-normal">Junior frontend engineer and creative developer with a specialization in <a class="link link-warning" href="https://snazzy-churros-95d36a.netlify.app/">3D web design</a>.</div>
+    <div id="headline" class="text-emerald-200 leading-normal">Creative Developer</div>
+    <div id="about" class="text-slate-200 leading-normal">Junior frontend engineer and creative developer with a specialization in 3D web design</div>
   </div>
 
   <div id="body" class="z-40">
@@ -33,7 +34,7 @@
         <div class="">
           <div>
             <div id="sectionHead" class="text-amber-100 text-4xl leading-normal" >Freelance Web Development</div>
-            <div class="text-2xl">March 2022-Present</div>
+            <div class="text-2xl">2022-Present</div>
           </div>
           <div id="description">
             <div class="text-3xl my-6">Creative Web Developer</div>
@@ -50,15 +51,16 @@
       </div>
       <div class="border-2 border-solid border-white p-10 bg-amber-200/5 rounded-3xl mb-10">
         <div class="" id="job">
-          <div><a id="sectionHead" class="text-amber-100 text-4xl leading-normal" href="https://www.capitalone.com/">Capital One</a></div>
-          <div class="text-2xl">June 2022-Present</div>
+          <div><a id="sectionHead" class="text-amber-100 text-4xl leading-normal">C-Level Analytics</a></div>
+          <div class="text-2xl">2023-February 2024</div>
         </div>
         <div id="description">
-          <div class="text-3xl my-6">Associate Banker</div>
+          <div class="text-3xl my-6">Javscript Developer</div>
           <ul id="list" class="mt-10" style="list-style-type:disc;">
-            <li class="text-xl leading-normal">interact with various <a class="font-bold">banking software</a> to assure regulations are followed and customer needs are met</li><br/>
-            <li class="text-xl leading-normal">open and manage personal and business accounts for customers</li><br/>
-            <li class="text-xl leading-normal">complete customer transactions</li>
+            <li class="text-xl leading-normal">customize the NetSuite ERP system</li><br/>
+            <li class="text-xl leading-normal">work within the Azure platform</li><br/>
+            <li class="text-xl leading-normal">develop a visually attractive 3D application for data manipulation within these platforms</li><br/>
+            <li class="text-xl leading-normal">integrate SFTP between the various platforms that the team services</li>
           </ul>
         </div>
       </div>
@@ -272,6 +274,15 @@ onMounted(() => {
   font-weight: 400;
   width: 65vw;
   margin: 15vw 0 5vh 5vw;
+  font-size: 6vh;
+  text-shadow: 1px 1px 8px;
+}
+
+#about {
+  font-family: 'Tilt Neon', cursive;
+  font-weight: 400;
+  width: 65vw;
+  margin: 0vw 0 5vh 5vw;
   font-size: 6vh;
   text-shadow: 1px 1px 8px;
 }
