@@ -114,7 +114,6 @@
       </div>
     </div>
 
-    <div id="footer" class="font-bold m-8">You can follow me on <a class="link link-warning" href="https://www.linkedin.com/in/fpimentel/">LinkedIn</a> and <a class="link link-warning" href="https://www.instagram.com/rxnando/">Instagram</a>. Here's my <a class="link link-warning" href="https://github.com/fpimentel-threejs/">Github</a> and <a class="link link-warning" href="mailto: fernandopimenton@gmail.com">Email</a>.</div>
   </div>
 
   <!--3D scene-->
