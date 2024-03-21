@@ -46,7 +46,7 @@
           <li class="text-xl leading-normal"><a class="font-bold">Ecommerce</a> site creation and management</li><br/>
           <li class="text-xl leading-normal"><a class="font-bold">mount sites</a> for testing and the assurance of customer satisfaction</li><br/>
           <li class="text-xl leading-normal">interact and discuss with clients to meet client needs to the fullest extent</li><br/>
-          <li class="text-xl leading-normal">connect with clients and advertise my services and products on <a class="link font-semibold" href="https://www.upwork.com/freelancers/~01b89b8e0050a27bf5">Upwork</a> and Fiverr</li>
+          <li class="text-xl leading-normal">connect with clients and advertise my services and products on <a class="link font-semibold">Upwork</a> and Fiverr</li>
         </ul>
       </div>
       <div class="border-2 border-solid border-white p-10 bg-amber-200/5 rounded-3xl mb-10">
